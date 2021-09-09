@@ -13,6 +13,6 @@ public class LoanController {
 
 	@GetMapping("/{number}")
 	public Loan getLoanDetails(@PathVariable long number) {
-		return new Loan(number, "Car", 400000, 4000, 18);
+		return new Loan(number, "Car", 400000, 5000, 18);
 	}
 }
