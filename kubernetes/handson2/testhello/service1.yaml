@@ -8,7 +8,7 @@ metadata :
 spec : 
  containers : 
  - name : greet-service
-   image : mscc1/helloworld
+   image : rohithk123/helloworld
    ports : 
     - containerPort : 8080
 
